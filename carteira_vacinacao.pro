@@ -32,7 +32,11 @@ HEADERS += \
         mainwindow.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    cadastra_pessoa.ui \
+    cadastra_vacina.ui \
+    cadastra_doses.ui \
+    cartao_vacinacao.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

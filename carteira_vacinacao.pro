@@ -26,10 +26,19 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    cadastra_doses.cpp \
+    cadastra_pessoa.cpp \
+    cadastra_vacina.cpp \
+    cartao_vacinacao.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    estruturas.h \
+    cadastra_doses.h \
+    cadastra_pessoa.h \
+    cadastra_vacina.h \
+    cartao_vacinacao.h
 
 FORMS += \
         mainwindow.ui \
